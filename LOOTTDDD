@@ -3308,7 +3308,7 @@ end)
 
 local CreatorTab = Window:NewTab("ℹ️Infoℹ️")
 local CreatorSection = CreatorTab:NewSection("Credits to Avtor1zaTion")
-local CreatorSection = CreatorTab:NewSection("Version 2.0")
+local CreatorSection = CreatorTab:NewSection("Version 2.1")
 
 CreatorSection:NewButton("Copy YT Avtor Scripts Link", "Youtube Avtor Scripts", function()
 
