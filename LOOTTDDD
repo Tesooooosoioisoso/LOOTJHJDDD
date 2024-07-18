@@ -44,7 +44,11 @@ local Window = Library.CreateLib("🔳 Avtor Hub🔳", "LightTheme")
  
 local PlrTab = Window:NewTab("Main")
 local PlrSection = PlrTab:NewSection("Main")
- 
+
+PlrSection:NewButton("🔰Fluxus Vuln Patcher🔰", "🔰Fluxus Vuln Patcher🔰", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Wjwh3j1n"))()
+end)
+
 PlrSection:NewSlider("⚡Speed⚡", "Set you speed", 150, 16, function(s)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
@@ -891,8 +895,13 @@ end)
 
 local OthersTab = Window:NewTab("Dev Scripts")
 local OthersSection = OthersTab:NewSection("Some Scripts Need To Function In The Real Game")
-OthersSection:NewTextBox("💾Script Executer💾","Execute Scripts", function(txt)
+OthersSection:NewTextBox("💾Script Executor💾","Execute Scripts", function(txt)
 loadstring(txt)()
+end)
+
+OthersSection:NewButton("🔳AvtorSploit🔳", "🔳AvtorSploit🔳", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Avtor1zaTion/AvtorSploit/main/AvtorSploit"))()
 end)
 
 OthersSection:NewButton("💻Remote Spy V2💻", "Make Fe Script or any script", function()
@@ -964,8 +973,36 @@ OthersSection:NewButton("👑Infinite yield👑", "👑Infinite yield👑", func
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
+OthersSection:NewButton("🔶Admin Panel🔶", "🔶Admin Panel🔶", function()
+    loadstring(game:HttpGet(('https://pastefy.app/Oic24KzG/raw'),true))()
+end)
+
 OthersSection:NewButton("📱растяг экрана📱", "📱растяг экрана📱", function()
    loadstring(game:HttpGetAsync("https://pastefy.app/xpZROojp/raw"))()
+end)
+
+OthersSection:NewButton("♾️Energize Remake♾️", "♾️Energize Remake♾️", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/vbJsvU0L"))()
+end)
+
+OthersSection:NewButton("💨Blur Amount💨", "💨Blur Amount💨", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/7gB5LAsj"))()
+end)
+
+OthersSection:NewButton("💫Pshade Reborn💫", "💫Pshade Reborn💫", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/pzDZtE59"))()
+end)
+
+OthersSection:NewButton("🌐Hitbox Changer🌐", "🌐Hitbox Changer🌐", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/ECkKyETV'),true))()
+end)
+
+OthersSection:NewButton("🗨Long Message🗨", "🗨Long Message🗨", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/WPHVj8Lj"))()
+end)
+
+OthersSection:NewButton("👁️‍🗨️Universall Fly Camera👁️‍🗨️", "👁️‍🗨️Universal Fly Camera👁️‍🗨️", function()
+loadstring(game:HttpGet(('https://pastefy.app/9CDN9Kaj/raw'),true))()
 end)
 
 OthersSection:NewButton("🐇Universall BunnyHop🐇", "🐇Universall BunnyHop🐇", function() loadstring(game:HttpGetAsync("https://pastebin.com/raw/TfLPRpue"))()
@@ -1126,6 +1163,10 @@ end)
 
 OthersSection:NewButton("💫Насыщенная графика💫", "💫Насыщенная графика💫", function()
    loadstring(game:HttpGet(('https://pastebin.com/raw/Qcdikwyj'),true))()
+end)
+
+OthersSection:NewButton("🟪Universall FOV аимбот🟪", "🟪Universall FOV аимбот🟪", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Avtor1zaTion/AimBot-Fov/main/Aimbot%20Fov", true))()
 end)
 
 OthersSection:NewButton("🟥Universall дальний аимбот🟥", "🟥Universall дальний аимбот🟥", function()
@@ -3153,6 +3194,11 @@ end)
 OthersSection:NewButton("⬛Ghost Hub⬛", "⬛Ghost Hub⬛", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+OthersSection:NewButton("⬛Rochips Panel⬛", "⬛Rochips Panel⬛", function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/pQudVPhR'))()
 end)
 
 OthersSection:NewButton("⬜Equinox Hub⬜", "⬜Equinox Hub⬜", function()
