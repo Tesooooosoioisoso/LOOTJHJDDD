@@ -1288,6 +1288,11 @@ end)
 local OthersTab = Window:NewTab("Animation R15")
 local OthersSection = OthersTab:NewSection("Animation R15")
 
+OthersSection:NewButton("Adidas Sport NEW", "Adidas Sport NEW", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/VFBVQ6zb"))()
+end)
+
 OthersSection:NewButton("Vampire", "Vampire", function()
 
 game.Players.LocalPlayer.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083445855"
