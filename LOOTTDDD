@@ -1296,11 +1296,6 @@ end)
 local OthersTab = Window:NewTab("Animation R15")
 local OthersSection = OthersTab:NewSection("Animation R15")
 
-OthersSection:NewButton("Adidas Sport NEW", "Adidas Sport NEW", function()
-
-loadstring(game:HttpGet("https://pastebin.com/raw/VFBVQ6zb"))()
-end)
-
 OthersSection:NewButton("Bold Animation NEW", "Bold ANimation NEW", function()
 
 game.Players.LocalPlayer.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=16738333868"
@@ -1312,6 +1307,11 @@ game.Players.LocalPlayer.Character.Animate.climb.ClimbAnim.AnimationId = "http:/
 game.Players.LocalPlayer.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=16738333171"
 game.Players.LocalPlayer.Character.Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=16738339158"
 game.Players.LocalPlayer.Character.Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=16738339817"
+end)
+
+OthersSection:NewButton("Adidas Sport NEW", "Adidas Sport NEW", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/VFBVQ6zb"))()
 end)
 
 OthersSection:NewButton("Vampire", "Vampire", function()
