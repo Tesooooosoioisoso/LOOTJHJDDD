@@ -51,8 +51,12 @@ PlrSection:NewButton("🔰Fluxus Vuln Patcher🔰", "🔰Fluxus Vuln Patcher🔰
 loadstring(game:HttpGet("https://pastebin.com/raw/Wjwh3j1n"))()
 end)
 
-PlrSection:NewButton("🎛Hide Hud🎛", "Hide Your Hud", function()
-game.CoreGui.TopBarApp.TopBarFrame.Visible = false
+PlrSection:NewToggle("👁️‍🗨️Hide Hud👁️‍🗨️", "Hiden Hud", function(state)
+    if state then
+        game.CoreGui.TopBarApp.TopBarFrame.Visible = false
+    else
+        game.CoreGui.TopBarApp.TopBarFrame.Visible = true
+    end
 end)
 
 PlrSection:NewSlider("⚡Speed⚡", "Set you speed", 150, 16, function(s)
