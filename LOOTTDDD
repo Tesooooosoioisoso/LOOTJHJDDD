@@ -995,6 +995,10 @@ OthersSection:NewButton("📱растяг экрана📱", "📱растяг �
    loadstring(game:HttpGetAsync("https://pastefy.app/xpZROojp/raw"))()
 end)
 
+OthersSection:NewButton("🚹Big Jump Button🚹", "Big Junp Button", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/p3TfEqQ2"))()
+end)
+
 OthersSection:NewButton("♾️Energize Remake♾️", "♾️Energize Remake♾️", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/vbJsvU0L"))()
 end)
