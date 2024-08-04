@@ -623,6 +623,27 @@ TargetSection:NewButton("🪐 Aura Head Target (R15) 🪐","Toggle to Aura Head 
    end
 end)
 
+TargetSection:NewButton("🏆Meme Walk To Player (R15)🏆","Toggle to walk your player", function()
+   if toggleBenx == false then
+      if Target ~= nil then
+         toggleBenx = true
+         PlayAnim(18537384940,0,1)
+         repeat
+            pcall(function()
+               local root = Player.Parent[Target].Character.HumanoidRootPart
+               Player.Character.HumanoidRootPart.CFrame = root.CFrame * CFrame.new(0,0,7.0)
+               Player.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
+            end)
+            task.wait()
+         until toggleBenx == false
+         StopAnim()
+      end
+   else
+      toggleBenx = false
+   end
+end)
+
+
 local labelTarget = TargetSection:NewLabel("R6 Target")
 
 
