@@ -3872,7 +3872,8 @@ end)
 
 local CreatorTab = Window:NewTab("ℹ️Infoℹ️")
 
-CreatorSection:NewButton("👑Secret Admin Panel👑", "enter key to get secret admin panel", function()
+CreatorSection:NewButton("👑Secret Admin Panel👑", "Secret Admin Panel", function()
+
 SendNotify("Admin Panel","❌в доступе отказано!❌",10)
 end)
 
