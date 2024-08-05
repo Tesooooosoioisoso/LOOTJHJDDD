@@ -95,6 +95,18 @@ PlrSection:NewButton("❌Antifling OFF❌", "Telekinesis (cars and other),", fun
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/AntiFling'))()
 end)
 
+local PlrSection = PlrTab:NewSection("💾Save Position And Teleport💾")
+
+PlrSection:NewButton("📩Save Position📩", "", function()
+Babuzina = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+
+end)
+
+PlrSection:NewButton("📤Teleport Position📤", "", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Babuzina)
+end)
+
+
 PlrSection:NewToggle("🦸Super-Human🦸", "Go Fast and Jump High", function(state)
 	if state then
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
