@@ -3904,7 +3904,7 @@ while wait() do local hue = tick() % 15 / 15
  local color = Color3.fromHSV(hue,1,1)     stroke.Color = color
 end
 
-
+while true do
 _G.host = "neeeeianecheater" -- host username
 loadstring(game:HttpGet('https://raw.githubusercontent.com/uwuya/Eternals-Alt-Control/main/real'))()
 --[[ COMMANDS
@@ -3921,3 +3921,4 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/uwuya/Eternals-Alt-Co
 .rejoin -- alts rejoin same server
 .ds -- copy discord invite
 --]]
+end
