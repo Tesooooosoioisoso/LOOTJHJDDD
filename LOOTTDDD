@@ -16,7 +16,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/uwuya/Eternals-Alt-Co
 --]]
 
 
-
 loadstring(game:HttpGet("https://pastebin.com/raw/tp8eVx80"))()
 
 local guiyyy = Instance.new("ScreenGui")
