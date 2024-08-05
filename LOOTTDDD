@@ -3871,6 +3871,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/ma
 end)
 
 local CreatorTab = Window:NewTab("ℹ️Infoℹ️")
+
+CreatorSection:NewTextBox("👑Secret Admin Panel👑","enter key to get secret admin panel", function(txt)
+SendNotify("Admin Panel","❌в доступе отказано!❌",10)
+end)
+
 local CreatorSection = CreatorTab:NewSection("Credits to Avtor1zaTion")
 local CreatorSection = CreatorTab:NewSection("Version 2.1")
 
