@@ -1091,6 +1091,11 @@ OthersSection:NewButton("🌈Chat Rainbow🌈", "🌈Chat Rainbow🌈", function
    loadstring(game:HttpGet(('https://pastebin.com/raw/AE4UMXdt'),true))()
 end)
 
+OthersSection:NewButton("✅✅СКОПИРОВАТЬ ПРОМОКОД (кинь в чат то что ты получил)✅✅", "Telegram Avtor Scripts", function()
+
+setclipboard("KMPJRHWVK64K")
+end)
+
 OthersSection:NewButton("🌀Flashback🌀", "🌀Flashback🌀", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/L"))()
 end)
