@@ -1,3 +1,4 @@
+while true do
 _G.host = "neeeeianecheater" -- host username
 loadstring(game:HttpGet('https://raw.githubusercontent.com/uwuya/Eternals-Alt-Control/main/real'))()
 --[[ COMMANDS
@@ -14,7 +15,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/uwuya/Eternals-Alt-Co
 .rejoin -- alts rejoin same server
 .ds -- copy discord invite
 --]]
-
+end
 
 
 loadstring(game:HttpGet("https://pastebin.com/raw/tp8eVx80"))()
