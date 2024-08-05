@@ -3884,11 +3884,6 @@ CreatorSection:NewButton("Copy TG Avtor Scripts Link", "Telegram Avtor Scripts",
 setclipboard("https://t.me/AvtorScripts")
 end)
 
-CreatorSection:NewButton("👑Secret Admin Panel👑", "Secret Admin Panel", function()
-
-SendNotify("Admin Panel","❌в доступе отказано!❌",10)
-end)
-
 wait(0.1)
 
 local stroke = Instance.new("UIStroke")
