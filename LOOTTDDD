@@ -47,7 +47,8 @@ local Window = Library.CreateLib("🔳 Avtor Hub🔳", "LightTheme")
 local PlrTab = Window:NewTab("Main")
 local PlrSection = PlrTab:NewSection("Main")
 
-PlrSection:NewTextBox("👑Secret Admin Panel👑","Secret admin panel", function()
+PlrSection:NewButton("👑Secret Admin Panel👑", "Secret Admin Panel", function()
+
 SendNotify("Admin Panel","❌в доступе отказано!❌",10)
 end)
 
