@@ -3922,3 +3922,4 @@ getgenv().BetaGUI = false -- True / False, Making it false will hide the GUI, ak
 
 getgenv().DramaOwner = {"imnoobparkours"} -- Replace with your main account username / No spaces / No Display Names
 loadstring(game:HttpGet("https://raw.githubusercontent.com/z7rab/Drama/main/Drama.lua"))("t.me/arceusxscripts")
+print(hello)
