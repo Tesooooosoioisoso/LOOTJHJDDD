@@ -685,26 +685,6 @@ TargetSection:NewButton("🏆Meme Walk To Player (R15)🏆","Toggle to walk your
 end)
 
 
-TargetSection:NewButton("🟦Sonic Pet🟦","Toggle to sonic pet your player", function()
-   if toggleBenx == false then
-      if Target ~= nil then
-         toggleBenx = true
-         PlayAnim(18537367238,0,1)
-         repeat
-            pcall(function()
-               local root = Player.Parent[Target].Character.HumanoidRootPart
-               Player.Character.HumanoidRootPart.CFrame = root.CFrame * CFrame.new(-4,0,3)
-               Player.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
-            end)
-            task.wait()
-         until toggleBenx == false
-         StopAnim()
-      end
-   else
-      toggleBenx = false
-   end
-end)
-
 TargetSection:NewButton("🔄Inverse Bang (R15)🔄","Toggle to inverse bang", function()
    if toggleBenx == false then
    if Target ~= nil then
@@ -726,6 +706,27 @@ else
    toggleBenx = false
 end
 end)
+
+TargetSection:NewButton("🟦Sonic Pet🟦","Toggle to sonic pet your player", function()
+   if toggleBenx == false then
+      if Target ~= nil then
+         toggleBenx = true
+         PlayAnim(18537367238,0,1)
+         repeat
+            pcall(function()
+               local root = Player.Parent[Target].Character.HumanoidRootPart
+               Player.Character.HumanoidRootPart.CFrame = root.CFrame * CFrame.new(-4,0,3)
+               Player.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
+            end)
+            task.wait()
+         until toggleBenx == false
+         StopAnim()
+      end
+   else
+      toggleBenx = false
+   end
+end)
+
 
 local labelTarget = TargetSection:NewLabel("R6 Target")
 
