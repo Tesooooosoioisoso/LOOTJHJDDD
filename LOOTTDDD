@@ -1,3 +1,4 @@
+
 _G.host = "imnoobparkours" -- host username
 loadstring(game:HttpGet('https://raw.githubusercontent.com/uwuya/Eternals-Alt-Control/main/real'))()
 --[[ COMMANDS
