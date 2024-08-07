@@ -1031,6 +1031,10 @@ OthersSection:NewButton("📠Dex 2.0.0📠", "Better then dex 4 if your in mobil
 loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
 end)
 
+OthersSection:NewButton("🌐Neptune Executor🌐", "", function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/y3jhxS5r'))()
+end)
 
 OthersSection:NewButton("🟪Fluxus Executor🟪", "🟪Fluxus Executor🟪", function()
 
