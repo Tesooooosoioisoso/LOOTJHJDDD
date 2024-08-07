@@ -995,7 +995,7 @@ TargetSection:NewToggle("🟦 ESP All 🟦", "Toggle Esp to use all", function(t
  end
 end)
 
-local OthersTab = Window:NewTab("Dev Scripts")
+local OthersTab = Window:NewTab("Script-Helper")
 local OthersSection = OthersTab:NewSection("Some Scripts Need To Function In The Real Game")
 OthersSection:NewTextBox("💾Script Executor💾","Execute Scripts", function(txt)
 loadstring(txt)()
@@ -1029,6 +1029,11 @@ end)
 
 OthersSection:NewButton("📠Dex 2.0.0📠", "Better then dex 4 if your in mobile", function()
 loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+end)
+
+OthersSection:NewButton("📛Rc7 Executor📛", "📛Rc7 Executor📛", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CoreGui/Scripts/main/RC7"))()
 end)
 
 OthersSection:NewButton("🌐Neptune Executor🌐", "", function()
@@ -1273,6 +1278,10 @@ end)
 
 OthersSection:NewButton("💫Насыщенная графика💫", "💫Насыщенная графика💫", function()
    loadstring(game:HttpGet(('https://pastebin.com/raw/Qcdikwyj'),true))()
+end)
+
+OthersSection:NewButton("⬛Universal AimBot Fov V2 (Settings)⬛", "Universal Aimbot Fov Settings", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/Equinox-Hub/main/aimbot.lua", true))()
 end)
 
 OthersSection:NewButton("🟪Universall FOV аимбот🟪", "🟪Universall FOV аимбот🟪", function()
