@@ -48,17 +48,6 @@ local Window = Library.CreateLib("🔳Avtor Hub🔳", "LightTheme")
 local PlrTab = Window:NewTab("Main")
 local PlrSection = PlrTab:NewSection("Main")
 
-PlrSection:NewButton("👑Secret Admin Panel👑", "Secret Admin Panel", function()
-local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
-
-Notification:Notify(
-    {Title = "Admin Panel", Description = "❌В доступе отказано❌"},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "option"},
-    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
-)
-end)
-
 PlrSection:NewSlider("💎Set Fps Max💎", "Set your max fps in game", 200, 1, function(s)
     setfpscap(s)
 end)
