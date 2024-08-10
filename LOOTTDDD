@@ -1077,6 +1077,10 @@ OthersSection:NewButton("🔶Admin Panel🔶", "🔶Admin Panel🔶", function()
     loadstring(game:HttpGet(('https://pastefy.app/Oic24KzG/raw'),true))()
 end)
 
+OthersSection:NewButton("📍Server Finder📍", "📍Server Finder📍", function()
+loadstring(game:HttpGet("https://www.scriptblox.com/raw/Server-Browser_80", true))()
+end)
+
 OthersSection:NewButton("📱растяг экрана📱", "📱растяг экрана📱", function()
    loadstring(game:HttpGetAsync("https://pastefy.app/xpZROojp/raw"))()
 end)
