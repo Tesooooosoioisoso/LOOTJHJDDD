@@ -1,4 +1,3 @@
-
 loadstring(game:HttpGet("https://pastebin.com/raw/tp8eVx80"))()
 
 local guiyyy = Instance.new("ScreenGui")
@@ -1047,6 +1046,7 @@ end)
 OthersSection:NewButton("📓Scripts Executor📓", "", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/yGxeT8zC", true))()
 end)
+
 
 OthersSection:NewButton("🟦Old Delta Executor🟦", "", function()
 
