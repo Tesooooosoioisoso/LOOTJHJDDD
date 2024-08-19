@@ -1053,14 +1053,14 @@ OthersSection:NewButton("🟦Old Delta Executor🟦", "", function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Delta-X-Executor-10319"))()
 end)
 
-OthersSection:NewButton("🟪Fluxus Executor🟪", "🟪Fluxus Executor🟪", function()
-
-loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fluxus-Coral-ReMake-Beta-by-AnyaDev-8562"))()
-end)
-
 OthersSection:NewButton("🟥Arceus X Executor🟥", "🟥Arceus X Executor🟥", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+end)
+
+OthersSection:NewButton("🟪Fluxus Executor🟪", "🟪Fluxus Executor🟪", function()
+
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fluxus-Coral-ReMake-Beta-by-AnyaDev-8562"))()
 end)
 
 OthersSection:NewButton("⬛KRNL Executor⬛", "⬛KRNL Executor⬛", function()
