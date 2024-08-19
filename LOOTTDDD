@@ -1073,8 +1073,8 @@ OthersSection:NewButton("🌫Custom Fly Gui🌫", "🌫System Fly Gui🌫", func
    loadstring(game:HttpGet("https://pastefy.app/M0N30XXG/raw"))("t.me/arceusxscripts");
 end)
 
-OthersSection:NewButton("👑Infinite yield👑", "👑Infinite yield👑", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+OthersSection:NewButton("👑Infinite yield Reborn👑", "👑Infinite yield Reborn👑", function()
+    loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Infinite-yield-reborn-15581'))()
 end)
 
 OthersSection:NewButton("🔶Admin Panel🔶", "🔶Admin Panel🔶", function()
