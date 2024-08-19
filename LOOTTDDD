@@ -1030,6 +1030,19 @@ OthersSection:NewButton("🌐Neptune Executor🌐", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/y3jhxS5r'))()
 end)
 
+OthersSection:NewButton("💬Chat Executor💬", "", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/chat-executor/main/chat-executor",true))()
+end)
+
+OthersSection:NewButton("🦺Backdoor Executor🦺", "", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/PXAdj6ED"))();
+end)
+
+OthersSection:NewButton("📓Scripts Executor📓", "", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/yGxeT8zC", true))()
+end)
+
 OthersSection:NewButton("🟪Fluxus Executor🟪", "🟪Fluxus Executor🟪", function()
 
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fluxus-Coral-ReMake-Beta-by-AnyaDev-8562"))()
