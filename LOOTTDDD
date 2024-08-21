@@ -393,6 +393,27 @@ else
 end
 end)
 
+TargetSection:NewButton("⚔️ Kill Player Target ⚔️","Toggle to platform player", function()
+   if toggleBenx == false then
+   if Target ~= nil then
+      toggleBenx = true
+      PlayAnim(59126674,0,1)
+      repeat
+         pcall(function()
+            local root = Player.Parent[Target].Character.HumanoidRootPart
+            Player.Character.HumanoidRootPart.CFrame = root.CFrame * CFrame.new(0,-3,0)
+            Player.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
+            -- Поворот на 90 градусов по часовой стрелке
+            Player.Character.HumanoidRootPart.CFrame = Player.Character.HumanoidRootPart.CFrame * CFrame.Angles(1.58, math.rad(0), 0)
+         end)
+         task.wait()
+      until toggleBenx == false
+      StopAnim()
+   end
+else
+   toggleBenx = false
+end
+end)
 
 local labelTarget = TargetSection:NewLabel("R15 Target")
 
