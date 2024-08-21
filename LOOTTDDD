@@ -3906,10 +3906,7 @@ end)
 local OthersTab = Window:NewTab("For Games")
 local OthersSection = OthersTab:NewSection("For Games")
 
-OthersSection:NewButton("🏢Brookhaven🏢", "🏢Brookhaven🏢", function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()   
-end)
 
 OthersSection:NewButton("🎃Kat🎃", "🎃Kat🎃", function()
 
