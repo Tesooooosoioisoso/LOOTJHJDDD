@@ -1095,6 +1095,11 @@ OthersSection:NewButton("🟦Old Delta Executor🟦", "", function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Delta-X-Executor-10319"))()
 end)
 
+OthersSection:NewButton("🟪Cubix Executor V 1.2🟪", "🟪Cubix Executor🟪", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/bot21333/sss/main/message_2.txt', true))();
+end)
+
 OthersSection:NewButton("🟥Arceus X Executor🟥", "🟥Arceus X Executor🟥", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
