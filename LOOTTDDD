@@ -378,7 +378,7 @@ TargetSection:NewButton("⚔️ Kill Player Target ⚔️","Toggle to platform p
       repeat
          pcall(function()
             local root = Player.Parent[Target].Character.HumanoidRootPart
-            Player.Character.HumanoidRootPart.CFrame = root.CFrame * CFrame.new(0,-3,0)
+            Player.Character.HumanoidRootPart.CFrame = root.CFrame * CFrame.new(0,-4,0)
             Player.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
             -- Поворот на 90 градусов по часовой стрелке
             Player.Character.HumanoidRootPart.CFrame = Player.Character.HumanoidRootPart.CFrame * CFrame.Angles(1.58, math.rad(0), 0)
