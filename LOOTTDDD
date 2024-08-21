@@ -370,8 +370,7 @@ TargetSection:NewButton("👥 Stand Head Target 👥","Toggle to stand head your
    end
 end)
 
-
-TargetSection:NewButton("🛶 Platform Player Target 🛶","Toggle to platform player", function()
+TargetSection:NewButton("⚔️ Kill Player Target ⚔️","Toggle to platform player", function()
    if toggleBenx == false then
    if Target ~= nil then
       toggleBenx = true
@@ -379,7 +378,7 @@ TargetSection:NewButton("🛶 Platform Player Target 🛶","Toggle to platform p
       repeat
          pcall(function()
             local root = Player.Parent[Target].Character.HumanoidRootPart
-            Player.Character.HumanoidRootPart.CFrame = root.CFrame * CFrame.new(0,-2,0)
+            Player.Character.HumanoidRootPart.CFrame = root.CFrame * CFrame.new(0,-3,0)
             Player.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
             -- Поворот на 90 градусов по часовой стрелке
             Player.Character.HumanoidRootPart.CFrame = Player.Character.HumanoidRootPart.CFrame * CFrame.Angles(1.58, math.rad(0), 0)
@@ -393,7 +392,7 @@ else
 end
 end)
 
-TargetSection:NewButton("⚔️ Kill Player Target ⚔️","Toggle to platform player", function()
+TargetSection:NewButton("🛶 Platform Player Target 🛶","Toggle to platform player", function()
    if toggleBenx == false then
    if Target ~= nil then
       toggleBenx = true
@@ -401,7 +400,7 @@ TargetSection:NewButton("⚔️ Kill Player Target ⚔️","Toggle to platform p
       repeat
          pcall(function()
             local root = Player.Parent[Target].Character.HumanoidRootPart
-            Player.Character.HumanoidRootPart.CFrame = root.CFrame * CFrame.new(0,-3,0)
+            Player.Character.HumanoidRootPart.CFrame = root.CFrame * CFrame.new(0,-2,0)
             Player.Character.HumanoidRootPart.Velocity = Vector3.new(0,0,0)
             -- Поворот на 90 градусов по часовой стрелке
             Player.Character.HumanoidRootPart.CFrame = Player.Character.HumanoidRootPart.CFrame * CFrame.Angles(1.58, math.rad(0), 0)
