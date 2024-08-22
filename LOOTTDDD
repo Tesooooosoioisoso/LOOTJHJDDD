@@ -51,6 +51,14 @@ PlrSection:NewSlider("💎Set Fps Max💎", "Set your max fps in game", 200, 1, 
     setfpscap(s)
 end)
 
+PlrSection:NewButton("🛠Fix Camera🛠", "", function()
+if game.Players.LocalPlayer.Character then
+        if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") then
+            game.Workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
+        end
+    end
+end)
+
 PlrSection:NewButton("🔰Fluxus Vuln Patcher🔰", "🔰Fluxus Vuln Patcher🔰", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/Wjwh3j1n"))()
 end)
