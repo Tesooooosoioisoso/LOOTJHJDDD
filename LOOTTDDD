@@ -59,6 +59,18 @@ if game.Players.LocalPlayer.Character then
     end
 end)
 
+PlrSection:NewToggle("🌕Day/Night🌑", "ToggleInfo", function(state)
+    if state then
+        local Lighting = game:GetService("Lighting")
+
+Lighting.ClockTime = 0
+    else
+        local Lighting = game:GetService("Lighting")
+
+Lighting.ClockTime = 14
+    end
+end)
+
 PlrSection:NewButton("🔰Fluxus Vuln Patcher🔰", "🔰Fluxus Vuln Patcher🔰", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/Wjwh3j1n"))()
 end)
