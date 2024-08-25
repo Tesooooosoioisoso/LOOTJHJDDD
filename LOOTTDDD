@@ -1070,7 +1070,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Podroka626/Scripts/ma
 end)
 
 OthersSection:NewButton("🧾Simple Spy🧾", "Make Fe Script or any script", function()
-loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/FxB4Qj2g",true))()
 end)
 
 OthersSection:NewButton("📝CMD-X📝", "Admin Commands", function()
