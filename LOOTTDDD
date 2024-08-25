@@ -1164,7 +1164,7 @@ OthersSection:NewButton("🌫Custom Fly Gui🌫", "🌫System Fly Gui🌫", func
 end)
 
 OthersSection:NewButton("👑Infinite yield Reborn👑", "👑Infinite yield Reborn👑", function()
-    loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Infinite-yield-reborn-15581'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 OthersSection:NewButton("🖥unlock cells tools/изменить кол-во ячеек tools🖥", "change cells tools as on pc", function()
