@@ -1167,6 +1167,10 @@ OthersSection:NewButton("👑Infinite yield Reborn👑", "👑Infinite yield Reb
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
+OthersSection:NewButton("⚫BRING PART⚫", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/BringParts"))()
+end)
+
 OthersSection:NewButton("🖥unlock cells tools/изменить кол-во ячеек tools🖥", "change cells tools as on pc", function()
  getgenv().slots = ( 11 ) --[[ default ]]--
 loadstring(game:HttpGet([[https://raw.githubusercontent.com/rrixh/uwuware/main/Kustom/mobile5lots]],false))
