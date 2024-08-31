@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Tesooooosoioisoso/ISHOOODDDA/main/ISHOOODDDA"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/1CqkFrh5"))()
 
 local guiyyy = Instance.new("ScreenGui")
 local TweenService = game:GetService("TweenService")
