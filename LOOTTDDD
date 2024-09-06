@@ -1168,7 +1168,7 @@ OthersSection:NewButton("👑Infinite yield Reborn👑", "👑Infinite yield Reb
 end)
 
 OthersSection:NewButton("⚫BRING PART⚫", "", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/BringParts"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/BringFlingPlayers"))()
 end)
 
 OthersSection:NewButton("🖥unlock cells tools/изменить кол-во ячеек tools🖥", "change cells tools as on pc", function()
