@@ -3978,7 +3978,15 @@ end)
 
 OthersSection:NewButton("🚪Doors🚪", "🚪Doors🚪", function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VaniaPerets/FolderGui-FolderHub/main/loader.lua", true))()
+end)
+
+OthersSection:NewButton("🗡Kat🗡", "", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubKat"))()
+end)
+
+OthersSection:NewButton("💊Lucky Block💊", "", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MariyaFurmanova/Library/main/un_WallHub", true))()
 end)
 
 OthersSection:NewButton("🗡Murder Mystery 2 (RSO) 🗡", "🗡Murder Mystery 2🗡", function()
@@ -3988,7 +3996,11 @@ end)
 
 OthersSection:NewButton("🐝Bee Swarm Simulator🐝", "🐝Bee Swarm Simulator🐝", function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Histy"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Chris8889/atlasbss/main/script.lua"))()
+end)
+
+OthersSection:NewButton("🔵Rainbow Friends🔵", "", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Rainbow-Friends/main/Main.lua'))()
 end)
 
 OthersSection:NewButton("🚘A Dusty Trip Dupe🚘", "🚘A Dusty Trip Dupe🚘", function()
@@ -4004,6 +4016,14 @@ end)
 OthersSection:NewButton("🍎Blox Fruits🍎", "🍎Blox Fruits🍎", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+end)
+
+OthersSection:NewButton("🚤Build a Boat🚤", "", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/axleoislost/Roscripts-Hub/main/babft'))()
+end)
+
+OthersSection:NewButton("🦔Pet Simulator 99🦔", "", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Tests/main/wd_Arise/loader.lua"))()
 end)
 
 local CreatorTab = Window:NewTab("ℹ️Infoℹ️")
