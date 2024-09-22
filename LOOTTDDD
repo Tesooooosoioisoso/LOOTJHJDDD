@@ -3973,7 +3973,7 @@ end)
 
 OthersSection:NewButton("🚧Prison Life🚧", " 🚧Prison Life🚧", function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))()
 end)
 
 OthersSection:NewButton("🚪Doors🚪", "🚪Doors🚪", function()
