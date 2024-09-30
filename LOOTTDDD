@@ -1167,6 +1167,10 @@ OthersSection:NewButton("👑Infinite yield Reborn👑", "👑Infinite yield Reb
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
+OthersSection:NewButton("🖌Chat Draw🖌", "", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/pzDZtE59"))()
+end)
+
 OthersSection:NewButton("⚫BRING PART⚫", "", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/BringFlingPlayers"))()
 end)
