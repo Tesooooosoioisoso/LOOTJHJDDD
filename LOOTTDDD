@@ -3946,6 +3946,11 @@ local OthersSection = OthersTab:NewSection("For Games")
 
 
 
+OthersSection:NewButton("⚫Wyvern (FOR ALL)⚫", "", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wyvernleaker/WYVERN/main/WYVERN.lua",true))()
+end)
+
 OthersSection:NewButton("🎃Kat🎃", "🎃Kat🎃", function()
 
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-KATERHUB-6696"))()
