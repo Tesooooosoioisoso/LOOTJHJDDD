@@ -1,3 +1,52 @@
+local Players = game:GetService("Players")
+local StarterGui = game:GetService("StarterGui")
+
+local playerToWatch = "BetaTesterFluxus" -- replace with the name of the player you want to watch
+
+function onPlayerAdded(player)
+ if player.Name == playerToWatch then
+  local notificationText = player.Name .. " joined the game!"
+  local thumbnailType = Enum.ThumbnailType.HeadShot
+  local thumbnailSize = Enum.ThumbnailSize.Size420x420
+  local thumbnailUrl = game:GetService("Players"):GetUserThumbnailAsync(player.UserId, thumbnailType, thumbnailSize)
+  local notificationOptions = {
+   Title = "🛠 Avtor Hub Developer",
+   Text = notificationText,
+   Duration = 5,
+   Icon = thumbnailUrl,
+  }
+  StarterGui:SetCore("SendNotification", notificationOptions)
+ end
+end
+
+Players.PlayerAdded:Connect(onPlayerAdded)
+
+
+local Players = game:GetService("Players")
+local StarterGui = game:GetService("StarterGui")
+
+local playerToWatch = "masp" -- replace with the name of the player you want to watch
+
+function onPlayerAdded(player)
+ if player.Name == playerToWatch then
+  local notificationText = player.Name .. " joined the game!"
+  local thumbnailType = Enum.ThumbnailType.HeadShot
+  local thumbnailSize = Enum.ThumbnailSize.Size420x420
+  local thumbnailUrl = game:GetService("Players"):GetUserThumbnailAsync(player.UserId, thumbnailType, thumbnailSize)
+  local notificationOptions = {
+   Title = "🛠 Avtor Hub Developer",
+   Text = notificationText,
+   Duration = 5,
+   Icon = thumbnailUrl,
+  }
+  StarterGui:SetCore("SendNotification", notificationOptions)
+ end
+end
+
+Players.PlayerAdded:Connect(onPlayerAdded)
+
+
+
 loadstring(game:HttpGet("https://pastebin.com/raw/1CqkFrh5"))()
 
 local guiyyy = Instance.new("ScreenGui")
