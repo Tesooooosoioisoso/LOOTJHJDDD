@@ -226,6 +226,38 @@ dofullbright()
 Light.LightingChanged:Connect(dofullbright)
 end)
 
+local OthersTab = Window:NewTab("👑Destroy Parts")
+local OthersSection = OthersTab:NewSection("👑Destroy Parts")
+
+OthersSection:NewButton("⚠️ВКЛЮЧИ ЧТОБЫ РАБОТАЛО⚠️", "включи чтобы работало", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/xdtMyHZi"))()
+end)
+
+OthersSection:NewSlider("💣Set Destroy Radius💣", "Set", 250, 1, function(Value)
+    radius = Value
+end)
+
+OthersSection:NewSlider("💣Set Orbit Radius💣", "Set", 250, 1, function(Value)
+    angleSpeed = Value
+end)
+
+OthersSection:NewToggle("⚔️Destroy Parts⚔️", "Go Fast and Jump High", function(state)
+    toggleBlackHole()
+end)
+
+OthersSection:NewButton("☀Bring Parts V1☀️", "", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/BringFlingPlayers"))()
+end)
+
+OthersSection:NewButton("🌛Bring Parts V2🌛", "", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/BringParts"))()
+end)
+
+
+OthersSection:NewButton("⚡Orbit Parts X Y⚡", "", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/SAZXHUB/SUPER_RING_V2_BY_CAT_DEV/refs/heads/main/README.md"))()
+end)
+
 local TargetTab = Window:NewTab("Target")
 local TargetSection = TargetTab:NewSection("Target")
 
@@ -4086,20 +4118,6 @@ end)
 
 OthersSection:NewButton("🦔Pet Simulator 99🦔", "", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Tests/main/wd_Arise/loader.lua"))()
-end)
-
-local CreatorTab = Window:NewTab("ℹ️Infoℹ️")
-
-local CreatorSection = CreatorTab:NewSection("Credits to Avtor1zaTion")
-local CreatorSection = CreatorTab:NewSection("Version 2.1")
-
-CreatorSection:NewButton("Copy YT Avtor Scripts Link", "Youtube Avtor Scripts", function()
-
-setclipboard("https://youtube.com/@avtorscripts?si=Pbp9QsfrcDZ5b-nO")
-end)
-CreatorSection:NewButton("Copy TG Avtor Scripts Link", "Telegram Avtor Scripts", function()
-
-setclipboard("https://t.me/AvtorScripts")
 end)
 
 wait(0.1)
