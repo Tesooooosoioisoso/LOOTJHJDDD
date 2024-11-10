@@ -4086,11 +4086,6 @@ end)
 local OthersTab = Window:NewTab("Hub")
 local OthersSection = OthersTab:NewSection("Hub")
 
-OthersSection:NewButton("🟩LollyPop🟩", "🟩LollyPop🟩", function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/rrixh/lollypophub/main/lollypophubV5.6",true))() 
-end)
-
 OthersSection:NewButton("🟦System Broken Custom🟦", "🟦System Broken Custom🟦", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Avtor1zaTion/System-Broken-Custom-Avtor-Scripts/main/system%20broken.txt"))()
 end)
