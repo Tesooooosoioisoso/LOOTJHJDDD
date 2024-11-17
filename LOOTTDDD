@@ -760,10 +760,6 @@ TargetSection:NewButton("👙 Bang Target (R15) 👙","Toggle to bang player", f
    end
 end)
 
-TargetSection:NewButton("👁️‍🗨️Скопировать промокод", "", function()
-
-setclipboard("K74FPDKZCS76")
-end)
 
 TargetSection:NewButton("⚠️ Face Bang Target (R15) ⚠️","Toggle to bang player", function()
    if toggleBenx == false then
