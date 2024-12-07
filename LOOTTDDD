@@ -1106,8 +1106,13 @@ OthersSection:NewButton("🔳AvtorSploit🔳", "🔳AvtorSploit🔳", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Avtor1zaTion/AvtorSploit/main/AvtorSploit"))()
 end)
 
+OthersSection:NewButton("👀Script Obfuscator👀", "", function()
+
+loadstring(game:HttpGet('https://pastefy.app/S7xNJSXX/raw'))()execute("Script20")
+end)
+
 OthersSection:NewButton("💻Remote Spy V2💻", "Make Fe Script or any script", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Protected.lua%20(22).txt"))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/BaconBossScript/Crazy/main/Crazy'),true))()
 end)
 
 OthersSection:NewButton("🛠️Script Maker🛠️", "🛠️Script Maker🛠️", function()
@@ -1231,13 +1236,151 @@ OthersSection:NewButton("📱OLD ROBLOX UI (mobile)📱", "👑Infinite yield Re
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Avtor1zaTion/OldRoblox/main/OldRoblox'),true))()
 end)
 
+OthersSection:NewButton("👹FE Headless (R6)👹", "", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Gazer-Ha/Valiant-Ui-Lib-Gazed-/refs/heads/main/Head%20Pack'))()
+end)
+
+OthersSection:NewButton("🗿FE Masturbation🗿", "", function()
+
+loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
+end)
+
+OthersSection:NewButton("🤬FE G-MAN🤬", "", function()
+
+_G.clientsidedeffect = true --set it to false if you don't want the effect
+loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty18.lua"))()
+end)
+
+OthersSection:NewButton("💫Player Orbit💫", "", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Orbit%20GUI"))()
+end)
+
+OthersSection:NewButton("👀FE Illusion Player👀", "", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_11l7Y131YqJjZ31QmV5L8pI23V02b3191sEg26E75472Wl78Vi8870jRv5txZyL1.lua.txt"))()
+end)
+
+OthersSection:NewButton("🛠️Tool Gui🛠️", "", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/ZvstfPXM"))()
+end)
+
+OthersSection:NewButton("👍Teleport To Fling Player👍", "", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/gMSmu1WH"))()
+end)
+
 OthersSection:NewButton("🖌Chat Draw(FIXED)🖌", "", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ocfi/Choose-ARt-able-remove/main/wassdaadwasda"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ocfi/Draw-To-Chat-Obfuscated/refs/heads/main/Draw%20to%20Chat"))()
+end)
+
+
+OthersSection:NewButton("🌛Legit Wall Hop🌜", "", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/s9dWyp6n",true))()
+end)
+
+OthersSection:NewButton("🌹FE Touch Fling🌹", "", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/rfKaavP3"))()
+end)
+
+OthersSection:NewButton("💣FE Cannon Ball💣", "", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Cannon%20Ball'))()
+end)
+
+OthersSection:NewButton("✅Saved Servers✅", "", function()
+
+loadstring(game:HttpGet(('https://pastefy.app/S7xNJSXX/raw'),true))()
+end)
+
+OthersSection:NewButton("💿FE Change Avatar Outfits💿", "", function()
+
+--AvtorScripts--
+loadstring(game:HttpGet('https://pastefy.app/S7xNJSXX/raw'))()execute("Script18")
+end)
+
+OthersSection:NewButton("👹Saken Kok R15👹", "", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/nv8DRdFK"))()
+end)
+
+OthersSection:NewButton("🗿FE R6 Animation🗿", "", function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-R6-Animations-Menu-By-Me-19427"))()
+end)
+
+OthersSection:NewButton("🚗Car Fly🚗", "", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/S33dedL0rdz/-Unknown-Roblox-Vfly-Script-.file/main/Rbxscript.c"))()
+end)
+
+OthersSection:NewButton("🚫FE Ring Parts🚫", "", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SAZXHUB/SUPER_RING_V2_BY_CAT_DEV/refs/heads/main/README.md"))()
+end)
+
+OthersSection:NewButton("🛠️FE MultiTool🛠️", "", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/MultiToolsV1/main/script"))()
+end)
+
+OthersSection:NewButton("🌈Rainbow Keyboard🌈", "", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/Ata/main/deltakeyboardcrack.txt", true))()
+end)
+
+OthersSection:NewButton("🛏️FE FALL GUI🛏️", "", function()
+
+--T.me/AvtorScripts--
+loadstring(game:HttpGet('https://pastefy.app/S7xNJSXX/raw'))()
+end)
+
+OthersSection:NewButton("🫂FE HOG GUI🫂", "", function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Hug-Gui-R6-17818"))()
+end)
+
+OthersSection:NewButton("💎FE Telekinesis💎", "", function()
+
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty11.lua"))()
+end)
+
+OthersSection:NewButton("👀FE Mewing Head👀", "", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Gazer-Ha/Valiant-Ui-Lib-Gazed-/refs/heads/main/Head%20Down'))()
+end)
+
+OthersSection:NewButton("🪩FE Parkour Flips🪩", "", function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/yjxXnxbS'))()
+end)
+
+OthersSection:NewButton("🔐FE Destroy Delay🔐", "", function()
+
+while true do
+wait(0,3)
+for i,v in ipairs(game:GetService("Workspace"):GetDescendants()) do if v.ClassName == "ProximityPrompt" then v.HoldDuration = 0 end end
+end
+end)
+
+OthersSection:NewButton("⬛Modifier Gui⬛", "", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Modifier%20Gui'))()
 end)
 
 OthersSection:NewButton("⚫BRING PART⚫", "", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/BringFlingPlayers"))()
 end)
+
+OthersSection:NewButton("👀Universal Chat Spy👀", "", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Avtor1zaTion/Chat-Spy/main/Chat%20Spy"))()
+end)
+
 
 OthersSection:NewButton("🖥unlock cells tools/изменить кол-во ячеек tools🖥", "change cells tools as on pc", function()
  getgenv().slots = ( 11 ) --[[ default ]]--
@@ -1565,6 +1708,11 @@ end)
 local OthersTab = Window:NewTab("Animation R15")
 local OthersSection = OthersTab:NewSection("Animation R15")
 
+OthersSection:NewButton("👍FE Animation Changer(BEST)👍", "", function()
+
+loadstring(game:HttpGet('https://pastefy.app/S7xNJSXX/raw'))()execute("Script9")
+end)
+
 OthersSection:NewButton("Bold Animation NEW", "Bold ANimation NEW", function()
 
 game.Players.LocalPlayer.Character.Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=16738333868"
@@ -1749,6 +1897,15 @@ OthersSection:NewButton("📊Serverside Controll Player📊", "📊Serverside Co
 loadstring(game:HttpGet(('https://pastebin.com/raw/d26A6cAk'),true))()
 end)
 
+OthersSection:NewButton("NO FE Change Players", "", function()
+
+loadstring(game:HttpGet('https://pastefy.app/S7xNJSXX/raw'))()execute("Script13")
+end)
+
+OthersSection:NewButton("👀NO FE Ambient👀", "", function()
+
+loadstring(game:HttpGet('https://pastefy.app/S7xNJSXX/raw'))()execute("Script14")
+end)
 
 OthersSection:NewButton("📏NO FE Baldi📏", "📏NO FE Baldi📏", function()
 
@@ -3871,6 +4028,29 @@ local p = game:GetService("Players").LocalPlayer
 ts:TeleportToPlaceInstance(game.PlaceId, game.JobId, p) 
 end)
 
+OthersSection:NewButton("✅SMALL SERVER✅", "", function()
+
+local Http = game:GetService("HttpService")
+local TPS = game:GetService("TeleportService")
+local Api = "https://games.roblox.com/v1/games/"
+
+local _place = game.PlaceId
+local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100"
+function ListServers(cursor)
+  local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or ""))
+  return Http:JSONDecode(Raw)
+end
+
+local Server, Next; repeat
+  local Servers = ListServers(Next)
+  Server = Servers.data[1]
+  Next = Servers.nextPageCursor
+until Server
+
+TPS:TeleportToPlaceInstance(_place,Server.id,game.Players.LocalPlayer)
+end)
+
+
 OthersSection:NewButton("✅Ragdoll Engine✅", "✅Ragdoll Engine✅", function()
 
 game:GetService("TeleportService"):SetTeleportGui(TeleportingUI)
@@ -4013,6 +4193,11 @@ local OthersSection = OthersTab:NewSection("For Games")
 OthersSection:NewButton("⚫Wyvern (FOR ALL)⚫", "", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wyvernleaker/WYVERN/main/WYVERN.lua",true))()
+end)
+
+OthersSection:NewButton("🔥Destroy Remote Spy🔥", "", function()
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/BaconBossScript/Crazy/main/Crazy'),true))()
 end)
 
 OthersSection:NewButton("🎃Kat🎃", "🎃Kat🎃", function()
