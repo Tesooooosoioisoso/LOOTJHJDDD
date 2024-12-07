@@ -3944,6 +3944,11 @@ end)
 local OthersTab = Window:NewTab("Hub")
 local OthersSection = OthersTab:NewSection("Hub")
 
+OthersSection:NewButton("💫Universal Hub💫", "", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/super-script-all-games-roblox/main/script"))()
+end)
+
 OthersSection:NewButton("🟦System Broken Custom🟦", "🟦System Broken Custom🟦", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Avtor1zaTion/System-Broken-Custom-Avtor-Scripts/main/system%20broken.txt"))()
 end)
