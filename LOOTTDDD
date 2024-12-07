@@ -1205,12 +1205,12 @@ OthersSection:NewButton("🟦Trigon Executor🟦", "🟦Trigon Executor🟦", fu
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/trigon/main/trigon"))()
 end)
 
-OthersSection:NewButton("Solara🟪 Executor🟪", "", function()
+OthersSection:NewButton("🟪Solara Executor🟪", "", function()
 
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Solara-Old-Ui-remaked-13754"))()
 end)
 
-OthersSection:NewButton("JJSploit Executor", "", function()
+OthersSection:NewButton("🟦JJSploit Executor🟦", "", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/jjsploit-ui/main/skiddable"))()
 end)
