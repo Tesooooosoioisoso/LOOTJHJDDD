@@ -1236,6 +1236,11 @@ OthersSection:NewButton("📱OLD ROBLOX UI (mobile)📱", "👑Infinite yield Re
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Avtor1zaTion/OldRoblox/main/OldRoblox'),true))()
 end)
 
+OthersSection:NewButton("🤙FE Ring Parts V3 (BEST)🤙", "", function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Natural-Disaster-Survival-Super-ring-parts-V3-cracked-24408"))()
+end)
+
 OthersSection:NewButton("👹FE Headless (R6)👹", "", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Gazer-Ha/Valiant-Ui-Lib-Gazed-/refs/heads/main/Head%20Pack'))()
@@ -1244,6 +1249,16 @@ end)
 OthersSection:NewButton("🗿FE Masturbation🗿", "", function()
 
 loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
+end)
+
+OthersSection:NewButton("🪩FE Dance Tool🪩", "", function()
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/ocfi/a9eebe4bffd19014263551ba10c50f3e/raw/359e6e6cfe7d0ee34304cbc50b14a34d54405db0/Wait%2520They%2520Dont%2520Love%2520You%2520Like%2520I%2520Love%2520You%2520Animation%2520Emote.lua"))()
+end)
+
+OthersSection:NewButton("😈FE GAle Figher (R6)😈", "", function()
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-Fighter-inspired-by-Gale-21557"))()
 end)
 
 OthersSection:NewButton("🤬FE G-MAN🤬", "", function()
@@ -1442,8 +1457,9 @@ OthersSection:NewButton("🌫Fling Gui🌫", "🌫Fling Gui🌫", function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
 end)
 OthersSection:NewButton("👤Animation Hub👤", "👤Animation Hub👤", function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+   loadstring(game:HttpGet('https://pastefy.app/S7xNJSXX/raw'))()execute("Script9")
 end)
+
 OthersSection:NewButton("🌍ходьба по стенам🌍", "🌍ходьба по стенам🌍", function()
    loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
 end)
