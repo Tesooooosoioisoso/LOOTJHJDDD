@@ -1,6 +1,6 @@
 --Avtor DS Base
 
--- Функция для сохранения и получения счетчика запусков
+-- Function to save and retrieve the launch count
 local function GetLaunchCount()
     local launchCount = 0
     local success, result = pcall(function()
@@ -70,6 +70,11 @@ local currentTime = os.date("%H:%M:%S %d.%m.%Y")
 local launchCount = GetLaunchCount()
 IncrementLaunchCount()
 
+local placeInfo = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
+local placeName = placeInfo.Name
+
+local playerProfileLink = "https://www.roblox.com/user.aspx?username=" .. playerName
+
 local url = "https://discord.com/api/webhooks/1332656923421708318/S_-ZqZrI0sI5tPYzZ7caeq77n2SgJzkLn30EAlaj3Arova-SFzAGOjkIMKXWpIX5oDuh"
 
 local embed = {
@@ -79,7 +84,7 @@ local embed = {
     ["fields"] = {
         {
             ["name"] = "👁️‍🗨️Основной ник",
-            ["value"] = playerName
+            ["value"] = "[" .. playerName .. "](" .. playerProfileLink .. ")"
         },
         {
             ["name"] = "👁️‍🗨️Дисплейный ник",
@@ -92,6 +97,10 @@ local embed = {
         {
             ["name"] = "ℹ️Номер запуска",
             ["value"] = tostring(launchCount)
+        },
+        {
+            ["name"] = "🏠Название плейса",
+            ["value"] = placeName
         }
     },
     ["footer"] = {
@@ -99,6 +108,8 @@ local embed = {
     }
 }
 SendMessageEMBED(url, embed)
+
+
 
 
 
