@@ -86,7 +86,7 @@ local embed = {
             ["value"] = playerDisplayName
         },
         {
-            ["name"] = "Время и дата активации",
+            ["name"] = "⌛Время и дата активации",
             ["value"] = currentTime
         },
         {
