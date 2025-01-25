@@ -1,5 +1,25 @@
 --Avtor DS Base
 
+-- Функция для сохранения и получения счетчика запусков
+local function GetLaunchCount()
+    local launchCount = 0
+    local success, result = pcall(function()
+        launchCount = readfile("launch_count.txt")
+        launchCount = tonumber(launchCount) or 0
+    end)
+    if not success then
+        writefile("launch_count.txt", "0")
+        launchCount = 0
+    end
+    return launchCount
+end
+
+local function IncrementLaunchCount()
+    local launchCount = GetLaunchCount()
+    launchCount = launchCount + 1
+    writefile("launch_count.txt", tostring(launchCount))
+end
+
 function SendMessage(url, message)
     local http = game:GetService("HttpService")
     local headers = {
@@ -15,9 +35,7 @@ function SendMessage(url, message)
         Headers = headers,
         Body = body
     })
-    
 end
-
 
 function SendMessageEMBED(url, embed)
     local http = game:GetService("HttpService")
@@ -44,19 +62,15 @@ function SendMessageEMBED(url, embed)
         Headers = headers,
         Body = body
     })
-    
 end
-
 
 local playerName = game.Players.LocalPlayer.Name
 local playerDisplayName = game.Players.LocalPlayer.DisplayName
-
-
 local currentTime = os.date("%H:%M:%S %d.%m.%Y")
-
+local launchCount = GetLaunchCount()
+IncrementLaunchCount()
 
 local url = "https://discord.com/api/webhooks/1332656923421708318/S_-ZqZrI0sI5tPYzZ7caeq77n2SgJzkLn30EAlaj3Arova-SFzAGOjkIMKXWpIX5oDuh"
-
 
 local embed = {
     ["title"] = "✅Запуск Avtor Hub",
@@ -74,6 +88,10 @@ local embed = {
         {
             ["name"] = "Время и дата активации",
             ["value"] = currentTime
+        },
+        {
+            ["name"] = "ℹ️Номер запуска",
+            ["value"] = tostring(launchCount)
         }
     },
     ["footer"] = {
@@ -81,6 +99,9 @@ local embed = {
     }
 }
 SendMessageEMBED(url, embed)
+
+
+
 
 local Players = game:GetService("Players")
 local StarterGui = game:GetService("StarterGui")
