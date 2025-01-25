@@ -1,3 +1,87 @@
+--Avtor DS Base
+
+function SendMessage(url, message)
+    local http = game:GetService("HttpService")
+    local headers = {
+        ["Content-Type"] = "application/json"
+    }
+    local data = {
+        ["content"] = message
+    }
+    local body = http:JSONEncode(data)
+    local response = request({
+        Url = url,
+        Method = "POST",
+        Headers = headers,
+        Body = body
+    })
+    
+end
+
+
+function SendMessageEMBED(url, embed)
+    local http = game:GetService("HttpService")
+    local headers = {
+        ["Content-Type"] = "application/json"
+    }
+    local data = {
+        ["embeds"] = {
+            {
+                ["title"] = embed.title,
+                ["description"] = embed.description,
+                ["color"] = embed.color,
+                ["fields"] = embed.fields,
+                ["footer"] = {
+                    ["text"] = embed.footer.text
+                }
+            }
+        }
+    }
+    local body = http:JSONEncode(data)
+    local response = request({
+        Url = url,
+        Method = "POST",
+        Headers = headers,
+        Body = body
+    })
+    
+end
+
+
+local playerName = game.Players.LocalPlayer.Name
+local playerDisplayName = game.Players.LocalPlayer.DisplayName
+
+
+local currentTime = os.date("%H:%M:%S %d.%m.%Y")
+
+
+local url = "https://discord.com/api/webhooks/1332656923421708318/S_-ZqZrI0sI5tPYzZ7caeq77n2SgJzkLn30EAlaj3Arova-SFzAGOjkIMKXWpIX5oDuh"
+
+
+local embed = {
+    ["title"] = "✅Запуск Avtor Hub",
+    ["description"] = "📛Информация запуска",
+    ["color"] = 65280,
+    ["fields"] = {
+        {
+            ["name"] = "👁️‍🗨️Основной ник",
+            ["value"] = playerName
+        },
+        {
+            ["name"] = "👁️‍🗨️Дисплейный ник",
+            ["value"] = playerDisplayName
+        },
+        {
+            ["name"] = "Время и дата активации",
+            ["value"] = currentTime
+        }
+    },
+    ["footer"] = {
+        ["text"] = ""
+    }
+}
+SendMessageEMBED(url, embed)
+
 local Players = game:GetService("Players")
 local StarterGui = game:GetService("StarterGui")
 
