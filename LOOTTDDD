@@ -1223,6 +1223,11 @@ OthersSection:NewButton("👑Infinite yield Reborn👑", "👑Infinite yield Reb
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
+OthersSection:NewButton("📛Anti Bang/Fling📛", "Anti bang and fling", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/RQXk2Qqi"))()
+end)
+
+
 OthersSection:NewButton("📱OLD ROBLOX UI (mobile)📱", "👑Infinite yield Reborn👑", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Avtor1zaTion/OldRoblox/main/OldRoblox'),true))()
 end)
