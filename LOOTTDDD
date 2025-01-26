@@ -1,9 +1,6 @@
 loadstring(game:HttpGet("https://pastejustit.com/raw/4i4urhrhl"))()
 
 
-
-
-
 local Players = game:GetService("Players")
 local StarterGui = game:GetService("StarterGui")
 
