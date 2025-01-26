@@ -1,4 +1,10 @@
-loadstring(game:HttpGet("https://pastejustit.com/raw/4i4urhrhl"))()
+loadstring(game:HttpGet("https://pastejustit.com/raw/titlr-4108", true))()
+
+
+
+
+
+
 
 
 local Players = game:GetService("Players")
